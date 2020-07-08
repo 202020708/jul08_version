@@ -186,6 +186,7 @@ a:focus {
   .s1container .s1card .content {
     width: 50%;
   }
+
 }
 @media only screen and (max-width: 1024px) {
   .portfolio .portfolio-item .portfolio-item-caption {
@@ -229,14 +230,26 @@ a:focus {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
+  .page-section {
+    padding:7rem 0 0 0;
+  }
 }
-
 @media (max-width: 991px) {
   .masthead .masthead-heading {
     font-size: 0.9rem;
     line-height: 2.75rem;
   }
-
+  .page-section {
+    padding:6rem 0 0 0;
+  }
+}
+@media (min-width: 768px) {
+  .s1cardcontainer .s1card {
+    position: relative;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 0 20px;
+  }  
 }
 
 @media (max-width: 767px) {
@@ -246,26 +259,12 @@ a:focus {
     margin: -50px auto;
     padding: 0 20px;
   }
-
-  .page-section2{
-    padding-top: 3rem;
+  .page-section {
+    padding:6rem 0 0 0;
   }
-
 }
 
-@media (min-width: 768px) {
-  .s1cardcontainer .s1card {
-    position: relative;
-    border-radius: 10px;
-    margin: 10px auto;
-    padding: 0 20px;
-  }
 
-  .page-section2{
-    padding-top: 8rem;
-  }
-  
-}
 
 @media (max-width: 414px) {
   .masthead .masthead-heading {
@@ -531,9 +530,7 @@ a:focus {
   bottom: 6rem;
 }
 
-.page-section {
-  padding:6rem 0 0 0;
-}
+
 
 .s2-container{
   display: flex;
