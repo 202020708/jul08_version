@@ -246,6 +246,11 @@ a:focus {
     margin: -50px auto;
     padding: 0 20px;
   }
+
+  .page-section2{
+    padding-top: 3rem;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -533,8 +538,9 @@ a:focus {
 }
 
 .page-section2{
-  padding-top: 2rem;
+  padding-top: 8rem;
 }
+
 .s2-flex-item{
 max-width: 450px;
 };
