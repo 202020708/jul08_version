@@ -253,6 +253,9 @@ a:focus {
   .m20px{
     margin: 0px auto;
   }
+  .m10px{
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -267,6 +270,9 @@ a:focus {
   }
   .m20px{
     margin: 85px auto;
+  }
+  .m10px{
+    margin-top: 0px;
   }
 }
 
