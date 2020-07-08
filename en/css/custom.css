@@ -260,6 +260,11 @@ a:focus {
     margin: 10px auto;
     padding: 0 20px;
   }
+
+  .page-section2{
+    padding-top: 8rem;
+  }
+  
 }
 
 @media (max-width: 414px) {
@@ -537,9 +542,6 @@ a:focus {
   padding-bottom: 6rem;
 }
 
-.page-section2{
-  padding-top: 8rem;
-}
 
 .s2-flex-item{
 max-width: 450px;
