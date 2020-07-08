@@ -250,6 +250,9 @@ a:focus {
     margin: 10px auto;
     padding: 0 20px;
   }  
+  .m20px{
+    margin: 0px auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -261,6 +264,9 @@ a:focus {
   }
   .page-section {
     padding:6rem 0 0 0;
+  }
+  .m20px{
+    margin: 85px auto;
   }
 }
 
