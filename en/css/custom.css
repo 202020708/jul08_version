@@ -233,14 +233,22 @@ a:focus {
 
 @media (max-width: 991px) {
   .masthead .masthead-heading {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     line-height: 2.75rem;
   }
+
+  .s1cardcontainer .s1card {
+    position: relative;
+    border-radius: 10px;
+    margin: -50px auto;
+    padding: 0 20px;
+  }
+
 }
 
 @media (max-width: 414px) {
   .masthead .masthead-heading {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 2.75rem;
   }
   .s1container h2 {
@@ -254,9 +262,10 @@ a:focus {
     margin: 2rem;
   }
   .page-section .page-section-heading {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 2.75rem;
   }
+  
 }
 
 .card-all {
