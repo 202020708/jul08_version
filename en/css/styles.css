@@ -10179,6 +10179,7 @@ form .row:first-child .floating-label-form-group {
 #modal-body-title{
   font-weight: bold;
   text-decoration: underline;
+  display: block;
 }
 
 #modal-body-table{
